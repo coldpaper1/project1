@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('git scm update') {
       steps {
-        git url: 'https://github.com/coldpaper1/cicdtest.git', branch: 'master'
+        git url: 'https://github.com/coldpaper1/project1.git', branch: 'master'
       }
     }
     stage('ansible-playbook start') {
