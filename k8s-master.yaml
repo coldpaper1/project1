@@ -1,9 +1,9 @@
 ---
 - name: master k8s command!
   hosts: master
-  become: yes
+  become: no
 
   tasks:
   - name: master k8s command!!!
-    shell: "kubectl get pod -n gcp"
+    shell: "kubectl get pod -n gcp > k1.txt"
 
