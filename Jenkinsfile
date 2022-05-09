@@ -11,7 +11,8 @@ pipeline {
         sudo chmod 777 k8s-master.yaml
         sudo chmod 777 imagebuild.yaml
         sudo chmod 777 master.lst
-        ansible-playbook k8s-master.yaml  
+	cat k8s-master.yaml
+        sudo ansible-playbook k8s-master.yaml  
         '''
       }
     }
