@@ -1,0 +1,9 @@
+---
+- name: master k8s command!
+  hosts: master
+  become: yes
+
+  tasks:
+  - name: master k8s command!!!
+    shell: "sudo kubectl get pod -n gcp"
+
