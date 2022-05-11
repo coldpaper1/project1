@@ -2,7 +2,8 @@ pipeline {
   agent any
   stages {
 
-    stage('ansible-playbook start') {
+
+    stage('docker image build & push ') {
       steps {
         sh '''
         sudo rm -rf /var/lib/jenkins/workspace/test10/project1
@@ -10,8 +11,14 @@ pipeline {
         cd project1
         sudo chmod 777 k8s-master.yaml
         sudo chmod 777 imagebuild.yaml
-        sudo chmod 777 master.lst
-	cat k8s-master.yaml
+        sudo ansible-playbook imagebuild.yaml  
+        '''
+      }
+    }
+    stage('ansible-playbook start') {
+      steps {
+        sh '''
+
         sudo ansible-playbook k8s-master.yaml  
         '''
       }

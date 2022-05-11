@@ -1,2 +1,20 @@
 ---
-- name: docker images~
+- name: docker images build & push
+  hosts: master
+  become: no
+
+
+  tasks:
+  - name: index.html delivery
+    become: yes
+    copy:
+      src: index.html
+      dest: /root/index.html
+
+
+
+  - name: docker images build
+    shell: "docker build -t mhkim1560/p1:aws2.0 . "
+      
+
+
