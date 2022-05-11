@@ -5,5 +5,5 @@
 
   tasks:
   - name: master k8s command!!!
-    shell: "kubectl get pod -n gcp "
+    shell: "kubectl run nginx --image=nginx"
 
