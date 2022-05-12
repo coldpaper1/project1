@@ -11,11 +11,11 @@
       src: index.html
       dest: /root/index.html
         
-  - name: index.html delivery
+  - name: companyname delivery
     become: yes
     copy:
-      src: companyname.html
-      dest: /root/companyname
+      src: companyname.txt
+      dest: /root/companyname.txt
 
 
   - name: docker images build & push & rolling-update  
