@@ -3,7 +3,7 @@ pipeline {
   stages {
 
 
-    stage('docker image build & push ') {
+    stage('git clone!!!! ') {
       steps {
         sh '''
         sudo rm -rf /var/lib/jenkins/workspace/test10/project1
@@ -11,15 +11,15 @@ pipeline {
         cd project1
         sudo chmod 777 k8s-master.yaml
         sudo chmod 777 imagebuild.yaml
-        sudo ansible-playbook imagebuild.yaml  
         '''
       }
     }
-    stage('ansible-playbook start') {
+    stage('docker build & push & rolling-update ') {
       steps {
         sh '''
 
-        sudo ansible-playbook k8s-master.yaml  
+	sudo ansible-playbook imagebuild.yaml 
+
         '''
       }
     }

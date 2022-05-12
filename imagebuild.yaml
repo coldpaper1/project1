@@ -13,8 +13,8 @@
 
 
 
-  - name: docker images build
-    shell: "docker build -t mhkim1560/p1:aws2.0 . "
+  - name: docker images build & push & rolling-update  
+    shell: ./a.sh
       
 
 
