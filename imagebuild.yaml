@@ -10,11 +10,16 @@
     copy:
       src: index.html
       dest: /root/index.html
-
+        
+  - name: index.html delivery
+    become: yes
+    copy:
+      src: companyname.html
+      dest: /root/companyname
 
 
   - name: docker images build & push & rolling-update  
-    shell: ./a.sh
+    shell: ./docker-images-build.sh
       
 
 
