@@ -28,7 +28,7 @@ then
         loop=""
 
 
-elif [ $company -eq 3 ]
+elif [ $companyname -eq 3 ]
 then
         companyname="azure"
         loop=""
