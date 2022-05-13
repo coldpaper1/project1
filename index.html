@@ -1,364 +1,678 @@
 <!DOCTYPE html>
-<html class="no-js lang-en lang-en_US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml" data-aws-assets="//a0.awsstatic.com" data-js-version="1.0.645" data-css-version="1.0.524">
+<html lang="en-US">
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-  <link rel="dns-prefetch" href=//a0.awsstatic.com />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: https://a0.awsstatic.com; connect-src 'self' https://112-tzm-766.mktoresp.com https://112-tzm-766.mktoutil.com https://a0.awsstatic.com https://a0.p.awsstatic.com https://a1.awsstatic.com https://amazonwebservices.d2.sc.omtrdc.net https://amazonwebservicesinc.tt.omtrdc.net https://api.regional-table.region-services.aws.a2z.com https://api.us-west-2.prod.pricing.aws.a2z.com https://aws.amazon.com https://aws.demdex.net https://b0.p.awsstatic.com https://c0.b0.p.awsstatic.com https://calculator.aws https://cm.everesttech.net https://d0.awsstatic.com https://d1.awsstatic.com https://d1fgizr415o1r6.cloudfront.net https://d2c.aws.amazon.com https://d3borx6sfvnesb.cloudfront.net https://dc.ads.linkedin.com https://dftu77xade0tc.cloudfront.net https://dpm.demdex.net https://fls-na.amazon.com https://googleads.g.doubleclick.net https://i18n-string.us-west-2.prod.pricing.aws.a2z.com https://prod-us-west-2.csp-report.marketing.aws.dev https://prod.log.shortbread.aws.dev https://prod.tools.shortbread.aws.dev https://s0.awsstatic.com https://s3.amazonaws.com/aws-messaging-pricing-information/ https://s3.amazonaws.com/public-pricing-agc/ https://spot-bid-advisor.s3.amazonaws.com https://target.aws.amazon.com https://view-stage.us-west-2.prod.pricing.aws.a2z.com https://view-staging.us-east-1.prod.plc1-prod.pricing.aws.a2z.com https://vs.aws.amazon.com https://www.youtube-nocookie.com; font-src 'self' data: https://a0.awsstatic.com https://f0.awsstatic.com https://fonts.gstatic.com; frame-src 'self' https://aws.demdex.net https://c0.b0.p.awsstatic.com https://calculator.aws https://dpm.demdex.net https://www.youtube-nocookie.com; img-src 'self' data: https://*.ads.linkedin.com https://*.vidyard.com https://*.ytimg.com https://a0.awsstatic.com https://amazonwebservices.d2.sc.omtrdc.net https://aws-quickstart.s3.amazonaws.com https://aws.amazon.com https://aws.demdex.net https://awsmedia.s3.amazonaws.com https://cm.everesttech.net https://d1.awsstatic.com https://d1d1et6laiqoh9.cloudfront.net https://d2908q01vomqb2.cloudfront.net https://d2cpw7vd6a2efr.cloudfront.net https://d36cz9buwru1tt.cloudfront.net https://docs.aws.amazon.com https://dpm.demdex.net https://fls-na.amazon.com https://g.cn https://google.ac https://google.ad https://google.ae https://google.al https://google.am https://google.as https://google.at https://google.az https://google.ba https://google.be https://google.bf https://google.bg https://google.bi https://google.bj https://google.bs https://google.bt https://google.by https://google.ca https://google.cat https://google.cc https://google.cd https://google.cf https://google.cg https://google.ch https://google.ci https://google.cl https://google.cm https://google.cn https://google.co.ao https://google.co.bw https://google.co.ck https://google.co.cr https://google.co.id https://google.co.il https://google.co.in https://google.co.jp https://google.co.ke https://google.co.kr https://google.co.ls https://google.co.ma https://google.co.mz https://google.co.nz https://google.co.pn https://google.co.th https://google.co.tz https://google.co.ug https://google.co.uk https://google.co.uz https://google.co.ve https://google.co.vi https://google.co.za https://google.co.zm https://google.co.zw https://google.com https://google.com.af https://google.com.ag https://google.com.ai https://google.com.ar https://google.com.au https://google.com.bd https://google.com.bh https://google.com.bn https://google.com.bo https://google.com.br https://google.com.bz https://google.com.co https://google.com.cu https://google.com.cy https://google.com.do https://google.com.ec https://google.com.eg https://google.com.et https://google.com.fj https://google.com.gh https://google.com.gi https://google.com.gt https://google.com.hk https://google.com.jm https://google.com.kh https://google.com.kw https://google.com.lb https://google.com.lc https://google.com.ly https://google.com.mm https://google.com.mt https://google.com.mx https://google.com.my https://google.com.na https://google.com.nf https://google.com.ng https://google.com.ni https://google.com.np https://google.com.om https://google.com.pa https://google.com.pe https://google.com.pg https://google.com.ph https://google.com.pk https://google.com.pr https://google.com.py https://google.com.qa https://google.com.sa https://google.com.sb https://google.com.sg https://google.com.sl https://google.com.sv https://google.com.tj https://google.com.tr https://google.com.tw https://google.com.ua https://google.com.uy https://google.com.vc https://google.com.vn https://google.cv https://google.cz https://google.de https://google.dj https://google.dk https://google.dm https://google.dz https://google.ee https://google.es https://google.fi https://google.fm https://google.fr https://google.ga https://google.ge https://google.gf https://google.gg https://google.gl https://google.gm https://google.gp https://google.gr https://google.gy https://google.hn https://google.hr https://google.ht https://google.hu https://google.ie https://google.im https://google.io https://google.iq https://google.is https://google.it https://google.je https://google.jo https://google.kg https://google.ki https://google.kz https://google.la https://google.li https://google.lk https://google.lt https://google.lu https://google.lv https://google.md https://google.me https://google.mg https://google.mk https://google.ml https://google.mn https://google.ms https://google.mu https://google.mv https://google.mw https://google.ne https://google.nl https://google.no https://google.nr https://google.nu https://google.pl https://google.pn https://google.ps https://google.pt https://google.ro https://google.rs https://google.ru https://google.rw https://google.sc https://google.se https://google.sh https://google.si https://google.sk https://google.sm https://google.sn https://google.so https://google.sr https://google.st https://google.td https://google.tg https://google.tk https://google.tl https://google.tm https://google.tn https://google.to https://google.tt https://google.vg https://google.vu https://google.ws https://googleads.g.doubleclick.net https://img.youtube.com https://marketingplatform.google.com https://media.amazonwebservices.com https://p.adsymptotic.com https://pages.awscloud.com https://s3.amazonaws.com/aws-quickstart/ https://ssl-static.libsyn.com https://static-cdn.jtvnw.net https://www.google.com https://www.linkedin.com https://yt3.ggpht.com; media-src 'self' https://*.libsyn.com https://a0.awsstatic.com https://anchor.fm https://awsmedia.s3.amazonaws.com https://awspodcastsiberiaent.s3.eu-west-3.amazonaws.com https://chtbl.com https://d1.awsstatic.com https://d1hemuljm71t2j.cloudfront.net https://d1le29qyzha1u4.cloudfront.net https://d1oqpvwii7b6rh.cloudfront.net https://d1vo51ubqkiilx.cloudfront.net https://d1yyh5dhdgifnx.cloudfront.net https://d2908q01vomqb2.cloudfront.net https://d2a6igt6jhaluh.cloudfront.net https://d3ctxlq1ktw2nl.cloudfront.net https://d3h2ozso0dirfl.cloudfront.net https://dgen8gghn3u86.cloudfront.net https://dk261l6wntthl.cloudfront.net https://download.stormacq.com/aws/podcast/ https://dts.podtrac.com https://media.amazonwebservices.com https://mktg-apac.s3-ap-southeast-1.amazonaws.com https://s3-ap-northeast-1.amazonaws.com/aws-china-media/ https://www.buzzsprout.com; object-src 'none'; script-src 'self' https://a0.awsstatic.com https://amazonwebservicesinc.tt.omtrdc.net https://googleads.g.doubleclick.net https://spot-price.s3.amazonaws.com https://static.doubleclick.net https://website.spot.ec2.aws.a2z.com https://www.google.com https://www.gstatic.com https://www.youtube.com/iframe_api https://www.youtube.com/s/player/; style-src 'self' 'unsafe-inline' https://a0.awsstatic.com; report-uri https://prod-us-west-2.csp-report.marketing.aws.dev/submit"/>
-  <title>404 Not Found</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <link rel="icon" type="image/ico" href="//a0.awsstatic.com/main/images/site/fav/favicon.ico" />
-  <link rel="shortcut icon" type="image/ico" href="//a0.awsstatic.com/main/images/site/fav/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="57x57" href="//a0.awsstatic.com/main/images/site/touch-icon-iphone-114-smile.png" />
-  <link rel="apple-touch-icon" sizes="72x72" href="//a0.awsstatic.com/main/images/site/touch-icon-ipad-144-smile.png" />
-  <link rel="apple-touch-icon" sizes="114x114" href="//a0.awsstatic.com/main/images/site/touch-icon-iphone-114-smile.png" />
-  <link rel="apple-touch-icon" sizes="144x144" href="//a0.awsstatic.com/main/images/site/touch-icon-ipad-144-smile.png" />
-  <meta name="google-site-verification" content="XHghG81ulgiW-3EylGcF48sG28tBW5EH0bNUhgo_DrU" />
-  <meta name="msvalidate.01" content="6F92E52A288E266E30C2797ECB5FCCF3" />
-  <link rel="stylesheet" href="//a0.awsstatic.com/main/css/1.0.524/style.css" />
-  <style>
-    .error {
-      text-align: center;
-    }
-    h1.error-code {
-      font-size: 15em;
-      color: #686868;
-    }
-    #m-nav-language-selector {
-      display: none;
-    }
-  </style>
-  <script type="application/json" id="aws-page-settings">
-    {
-      "supportedLanguages": ["en"],
-      "defaultLanguage": "en",
-      "logDataSet": "LIVE:PROD",
-      "logInstance": "PUB",
-      "framework": "v1",
-      "libraCSSPath": "//a0.awsstatic.com/libra-css/css/1.0.400",
-      "currentLanguage": "en-US",
-      "requireBaseUrl": "//a0.awsstatic.com/chrome/js/1.0.645",
-      "requirePaths": {
-        "jquery": "jquery-amd"
-      },
-      "requireDeps": ["scripts"],
-      "requireShim": {
-        "pricing-table": ["scripts"]
-      }
-    }
-  </script>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="http://www.siteskillstraining.com/wp-content/themes/blank-revised/style.css" />
 
-  <script type="application/json" id="awsma-config">
-    {
-      "pageType": "errorPage"
-    }
-  </script>
-  <script src="//a0.awsstatic.com/chrome/js/1.0.645/head.2.0.js"></script>
-  <script src="//a0.awsstatic.com/s_code/js/3.0/awshome_s_code.js"></script>
-  <script src="//a0.awsstatic.com/target/1.0.113/aws-target-mediator.js"></script>
-  <script src="//a0.awsstatic.com/libra/1.0.442/csp/csp-report.js" async="true"></script>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<title>American Welding Society (AWS) &#8211; Site Skills Training International</title>
+<link rel='dns-prefetch' href='//s.w.org'>
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.siteskillstraining.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.siteskillstraining.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://www.siteskillstraining.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<link rel='stylesheet' id='resp-video-style-css'  href='http://www.siteskillstraining.com/wp-content/plugins/responsive-video-shortcodes/assets/respvid.css?ver=4.6' type='text/css' media='all' />
+<link rel='stylesheet' id='flexslider-css-css'  href='http://www.siteskillstraining.com/wp-content/themes/blank-revised/bower_components/flexslider/flexslider.css?ver=4.6' type='text/css' media='' />
+<link rel='stylesheet' id='fontawesome-css-css'  href='http://www.siteskillstraining.com/wp-content/themes/blank-revised/bower_components/font-awesome/css/font-awesome.css?ver=4.6' type='text/css' media='' />
+<link rel='stylesheet' id='lightbox-css'  href='http://www.siteskillstraining.com/wp-content/themes/blank-revised/bower_components/lightbox2/dist/css/lightbox.min.css?ver=4.6' type='text/css' media='' />
+<link rel='stylesheet' id='styles-scss-css'  href='http://www.siteskillstraining.com/wp-content/themes/blank-revised/css/styles.css?ver=4.6' type='text/css' media='' />
+<link rel='stylesheet' id='tablepress-default-css'  href='http://www.siteskillstraining.com/wp-content/plugins/tablepress/css/default.min.css?ver=1.7' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.siteskillstraining.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.siteskillstraining.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.siteskillstraining.com/wp-content/themes/blank-revised/js/scripts.js?ver=4.6'></script>
+<link rel='https://api.w.org/' href='http://www.siteskillstraining.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.siteskillstraining.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.siteskillstraining.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Australian Skills Quality Authority (ASQA)' href='http://www.siteskillstraining.com/services/asqa/' />
+<link rel='next' title='OPITO-IMIST' href='http://www.siteskillstraining.com/services/opito-imist/' />
+<meta name="generator" content="WordPress 4.6" />
+<link rel="canonical" href="http://www.siteskillstraining.com/services/aws/" />
+<link rel='shortlink' href='http://www.siteskillstraining.com/?p=447' />
+<link rel="alternate" type="application/json+oembed" href="http://www.siteskillstraining.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.siteskillstraining.com%2Fservices%2Faws%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.siteskillstraining.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.siteskillstraining.com%2Fservices%2Faws%2F&#038;format=xml" />
+<link rel="icon" href="http://www.siteskillstraining.com/wp-content/uploads/2016/01/cropped-SST_Master_Land_CMYK_Grad-32x32.png" sizes="32x32" />
+<link rel="icon" href="http://www.siteskillstraining.com/wp-content/uploads/2016/01/cropped-SST_Master_Land_CMYK_Grad-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="http://www.siteskillstraining.com/wp-content/uploads/2016/01/cropped-SST_Master_Land_CMYK_Grad-180x180.png" />
+<meta name="msapplication-TileImage" content="http://www.siteskillstraining.com/wp-content/uploads/2016/01/cropped-SST_Master_Land_CMYK_Grad-270x270.png" />
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-33792968-2', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+	
 </head>
-<body>
+<body class="single single-service postid-447">
 
-<header id="aws-page-header" class="awsm m-page-header" role="banner"> 
- <div id="m-nav" class="m-nav" role="navigation"> 
-  <div class="m-nav-header lb-clearfix" data-menu-url="https://s0.awsstatic.com/en_US/nav/v3/panel-content/desktop/index.html"> 
-   <div class="m-nav-logo"> 
-    <div class="lb-bg-logo aws-amazon_web_services_smile-header-desktop-en"> 
-     <a href="https://aws.amazon.com/?nc2=h_lg"><span>Click here to return to Amazon Web Services homepage</span></a> 
-    </div> 
-   </div> 
-   <div class="m-nav-secondary-links" style="min-width: 620px"> 
-    <a href="https://aws.amazon.com/contact-us/?nc2=h_header">Contact Us</a> 
-    <a class="lb-txt-none lb-tiny-iblock lb-txt-13 lb-txt lb-has-trigger-indicator" href="#" data-mbox-ignore="true" data-lb-popover-trigger="popover-support-selector"> Support&nbsp; <i class="icon-caret-down lb-trigger-mount"></i></a> 
-    <a id="m-nav-language-selector" class="lb-tiny-iblock lb-txt lb-has-trigger-indicator" href="#" data-lb-popover-trigger="popover-language-selector" data-language="en">English&nbsp;<i class="icon-caret-down lb-trigger-mount"></i></a> 
-    <a class="lb-tiny-iblock lb-txt lb-has-trigger-indicator" href="#" data-lb-popover-trigger="popover-my-account">My Account&nbsp;<i class="icon-caret-down lb-trigger-mount"></i></a> 
-    <div class="m-nav-cta-btn"> 
-     <div class="lb-mbox js-mbox" data-lb-comp="mbox" data-lb-comp-ignore="true" data-mbox="en_header_nav_cta"> 
-      <div class="lb-data-attr-wrapper data-attr-wrapper" data-da-type="so" data-da-so-type="viewport" data-da-so-language="en" data-da-so-category="monitoring" data-da-so-name="nav-buttons" data-da-so-version="sign-up-sign-in-all" data-da-so-url="nav"> 
-       <div class="data-attr-wrapper lb-tiny-iblock lb-none-pad lb-box" data-da-type="so" data-da-so-type="viewport" data-da-so-language="en" data-da-so-category="monitoring" data-da-so-name="nav-buttons" data-da-so-version="prospect-sign-in" data-da-so-url="all"> 
-        <a class="lb-txt-none lb-tiny-iblock lb-txt-13 lb-txt" style="padding-top:8px; padding-right:13px;" href="https://console.aws.amazon.com/console/home?nc2=h_ct&amp;src=header-signin"> Sign In</a> 
-       </div> 
-       <div class="data-attr-wrapper lb-tiny-iblock lb-none-v-margin lb-btn" data-da-type="so" data-da-so-type="viewport" data-da-so-language="en" data-da-so-category="monitoring" data-da-so-name="nav-buttons" data-da-so-version="prospect-signup" data-da-so-url="all"> 
-        <a class="lb-btn-p-primary" href="https://portal.aws.amazon.com/gp/aws/developer/registration/index.html?nc2=h_ct&amp;src=header_signup" data-trk-params="{&quot;trkOverrideWithQs&quot;:true}" role="button"> <span> Create an AWS Account</span> </a> 
-       </div> 
-      </div> 
-     </div> 
-    </div> 
-   </div> 
-   <div class="m-nav-primary-group"> 
-    <div class="m-nav-primary-links"> 
-     <i class="m-nav-angle-left-icon" aria-hidden="true"></i> 
-     <ul> 
-      <li><a href="https://aws.amazon.com/products/?nc2=h_ql_prod" data-panel="m-nav-panel-products">Products</a></li> 
-      <li><a href="https://aws.amazon.com/solutions/?nc2=h_ql_sol" data-panel="m-nav-panel-solutions">Solutions</a></li> 
-      <li><a href="https://aws.amazon.com/pricing/?nc2=h_ql_pr" data-panel="m-nav-panel-pricing">Pricing</a></li> 
-      <li><a href="https://docs.aws.amazon.com/index.html?nc2=h_ql_doc" data-panel="m-nav-panel-documentation">Documentation</a></li> 
-      <li><a href="https://aws.amazon.com/getting-started/?nc2=h_ql_le" data-panel="m-nav-panel-learn">Learn</a></li> 
-      <li><a href="https://aws.amazon.com/partners/?nc2=h_ql_pn" data-panel="m-nav-panel-partner">Partner Network</a></li> 
-      <li><a href="https://aws.amazon.com/marketplace/?nc2=h_ql_mp" data-panel="m-nav-panel-marketplace">AWS Marketplace</a></li> 
-      <li><a href="https://aws.amazon.com/customer-enablement/?nc2=h_ql_ce" data-panel="m-nav-panel-customer">Customer Enablement</a></li> 
-      <li><a href="https://aws.amazon.com/events/?nc2=h_ql_ev" data-panel="m-nav-panel-events">Events</a></li> 
-      <li><a href="https://aws.amazon.com/contact-us/?nc2=h_ql_exm" data-panel="m-nav-panel-more">Explore More </a></li> 
-     </ul> 
-     <div class="m-nav-icon-group"> 
-      <i class="m-nav-angle-right-icon" aria-hidden="true"></i> 
-      <i class="m-nav-search-icon"></i> 
-     </div> 
-    </div> 
-    <div class="m-nav-search"> 
-     <form action="https://aws.amazon.com/search/" role="search"> 
-      <div class="m-typeahead" data-directory-id="typeahead-suggestions" data-lb-comp="typeahead"> 
-       <input class="m-nav-search-field" placeholder="Search" autocomplete="off" spellcheck="false" dir="auto" type="text" name="searchQuery"> 
-      </div> 
-     </form> 
-     <i class="m-nav-close-icon"></i> 
-    </div> 
-   </div> 
-  </div> 
-  <div class="lb-popover lb-popover-aui lb-popover-tiny" data-lb-comp="popover" data-id="popover-language-selector" data-action="hover" data-position="top"> 
-   <div class="lb-grid lb-row lb-row-max-large lb-snap"> 
-    <div class="lb-col lb-tiny-24 lb-mid-12"> 
-     <ul class="lb-txt-none lb-ul lb-list-style-none lb-tiny-ul-block"> 
-      <li data-language="ar"><a href="https://aws.amazon.com/ar/?nc1=h_ls">عربي</a></li> 
-      <li data-language="id"><a href="https://aws.amazon.com/id/?nc1=h_ls">Bahasa Indonesia</a></li> 
-      <li data-language="de"><a href="https://aws.amazon.com/de/?nc1=h_ls">Deutsch</a></li> 
-      <li data-language="en"><a href="https://aws.amazon.com/?nc1=h_ls">English</a></li> 
-      <li data-language="es"><a href="https://aws.amazon.com/es/?nc1=h_ls">Español</a></li> 
-      <li data-language="fr"><a href="https://aws.amazon.com/fr/?nc1=h_ls">Français</a></li> 
-      <li data-language="it"><a href="https://aws.amazon.com/it/?nc1=h_ls">Italiano</a></li> 
-      <li data-language="pt"><a href="https://aws.amazon.com/pt/?nc1=h_ls">Português</a></li> 
-     </ul> 
-    </div> 
-    <div class="lb-col lb-tiny-24 lb-mid-12"> 
-     <ul class="lb-txt-none lb-ul lb-list-style-none lb-tiny-ul-block"> 
-      <li data-language="vi"><a href="https://aws.amazon.com/vi/?nc1=f_ls">Tiếng Việt</a></li> 
-      <li data-language="tr"><a href="https://aws.amazon.com/tr/?nc1=h_ls">Türkçe</a></li> 
-      <li data-language="ru"><a href="https://aws.amazon.com/ru/?nc1=h_ls">Ρусский</a></li> 
-      <li data-language="th"><a href="https://aws.amazon.com/th/?nc1=f_ls">ไทย</a></li> 
-      <li data-language="jp"><a href="https://aws.amazon.com/jp/?nc1=h_ls">日本語</a></li> 
-      <li data-language="ko"><a href="https://aws.amazon.com/ko/?nc1=h_ls">한국어</a></li> 
-      <li data-language="cn"><a href="https://aws.amazon.com/cn/?nc1=h_ls">中文 (简体)</a></li> 
-      <li data-language="tw"><a href="https://aws.amazon.com/tw/?nc1=h_ls">中文 (繁體)</a></li> 
-     </ul> 
-    </div> 
-   </div> 
-  </div> 
-  <div class="lb-popover lb-popover-aui lb-popover-tiny" data-lb-comp="popover" data-id="popover-my-account" data-action="hover" data-position="top"> 
-   <ul class="lb-txt-none lb-ul lb-list-style-none lb-tiny-ul-block"> 
-    <li><a href="https://console.aws.amazon.com/?nc2=h_m_mc">AWS Management Console</a></li> 
-    <li><a href="https://console.aws.amazon.com/billing/home#/account?nc2=h_m_ma">Account Settings</a></li> 
-    <li><a href="https://console.aws.amazon.com/billing/home?nc2=h_m_bc">Billing &amp; Cost Management</a></li> 
-    <li><a href="https://console.aws.amazon.com/iam/home?nc2=h_m_sc#security_credential">Security Credentials</a></li> 
-    <li><a href="https://phd.aws.amazon.com/?nc2=h_m_sc">AWS Personal Health Dashboard</a></li> 
-   </ul> 
-  </div> 
-  <div class="lb-popover lb-popover-aui lb-popover-tiny" data-lb-comp="popover" data-id="popover-support-selector" data-action="hover" data-position="top"> 
-   <ul class="lb-txt-none lb-ul lb-list-style-none lb-tiny-ul-block"> 
-    <li><a href="https://console.aws.amazon.com/support/home/?nc2=h_ql_cu">Support Center</a></li> 
-    <li><a href="https://aws.amazon.com/premiumsupport/knowledge-center/?nc2=h_m_ma">Knowledge Center</a></li> 
-    <li><a href="https://aws.amazon.com/premiumsupport/?nc2=h_m_bc">AWS Support Overview</a></li> 
-   </ul> 
-  </div> 
-  <script type="text/x-handlebars-template" data-hbs-template-path="nav-desktop/suggestions" data-hbs-context="{&quot;pricingText&quot;:&quot;Pricing&quot;,&quot;documentationText&quot;:&quot;Documentation&quot;,&quot;calculatorText&quot;:&quot;Calculator&quot;}"></script> 
-  <script type="text/x-handlebars-template" data-hbs-template-path="nav-desktop/products-head" data-hbs-context="{&quot;productsText&quot;:&quot;Products&quot;}"></script> 
-  <script type="text/x-handlebars-template" data-hbs-template-path="nav-desktop/keypages-head" data-hbs-context="{&quot;relatedPagesText&quot;:&quot;Related Pages&quot;}"></script> 
-  <script type="text/x-handlebars-template" data-hbs-template-path="nav-desktop/tutorials-head" data-hbs-context="{&quot;tutorialsText&quot;:&quot;Tutorials&quot;}"></script> 
-  <script type="text/x-handlebars-template" data-hbs-template-path="nav-desktop/blogs-head" data-hbs-context="{&quot;blogsText&quot;:&quot;Blogs&quot;}"></script> 
-  <script type="text/x-handlebars-template" data-hbs-template-path="nav-desktop/see-all" data-hbs-context="{&quot;resultsText&quot;:&quot;See more results for&quot;}"></script> 
- </div> 
- <div id="m-nav-mobile" class="m-nav-mobile"> 
-  <div id="m-nav-mobile-header" class="m-nav-mobile-header" data-menu-url="https://s0.awsstatic.com/en_US/nav/v3/panel-content/mobile/index.html"> 
-   <div class="lb-bg-logo aws-amazon_web_services_smile-header-mobile-en"> 
-    <a href="https://aws.amazon.com/?nc2=h_lg"><span>Click here to return to Amazon Web Services homepage</span></a> 
-   </div> 
-   <div class="m-nav-mobile-button-group"> 
-    <i class="m-nav-mobile-button icon-search"></i> 
-    <i class="m-nav-mobile-button icon-reorder"></i> 
-   </div> 
-  </div> 
-  <div id="m-nav-mobile-search" class="m-nav-mobile-search"> 
-   <form action="https://aws.amazon.com/search" role="search"> 
-    <div class="m-typeahead"> 
-     <input class="m-nav-search-field" placeholder="Search" autocomplete="off" spellcheck="false" dir="auto" type="text" name="searchQuery"> 
-    </div> 
-   </form> 
-  </div> 
-  <nav id="m-nav-trimdown" role="navigation"> 
-   <ul class="m-nav-mobile-menu-group"> 
-    <li> <a href="https://aws.amazon.com/products/?nc2=h_mo">Products</a> </li> 
-    <li> <a href="https://aws.amazon.com/solutions/?nc2=h_mo">Solutions</a> </li> 
-    <li> <a href="https://aws.amazon.com/pricing/?nc2=h_mo">Pricing</a> </li> 
-    <li> <a href="https://aws.amazon.com/what-is-aws/?nc2=h_mo">Introduction to AWS</a> </li> 
-    <li> <a href="https://aws.amazon.com/getting-started/?nc2=h_mo">Getting Started</a> </li> 
-    <li> <a href="https://aws.amazon.com/documentation/?nc2=h_mo">Documentation</a> </li> 
-    <li> <a href="https://aws.amazon.com/training/?nc2=h_mo">Training and Certification</a> </li> 
-    <li> <a href="https://aws.amazon.com/developer/?nc2=h_mo">Developer Center</a> </li> 
-    <li> <a href="https://aws.amazon.com/solutions/case-studies/?nc2=h_mo">Customer Success</a> </li> 
-    <li> <a href="https://aws.amazon.com/partners/?nc2=h_mo">Partner Network</a> </li> 
-    <li> <a href="https://aws.amazon.com/marketplace/?nc2=h_mo">AWS Marketplace</a> </li> 
-    <li> <a href="https://console.aws.amazon.com/support/home?nc2=h_ql_cu">Support</a> </li> 
-    <li> <a href="https://console.aws.amazon.com/console/home">Log into Console</a> </li> 
-    <li> <a href="https://aws.amazon.com/console/mobile/">Download the Mobile App</a> </li> 
-   </ul> 
-  </nav> 
- </div> 
-</header><div id="aws-page-content" class="page-content">
-  <main role="main">
-    <div class="js-mbox" data-mbox="en_404_content">
-          <div class="lb-row lb-snap lb-row-max-large">
-            <div class="lb-tiny-24 lb-col error">
-              <h1 class="error-code">404</h1>
-              <h1>Sorry, the page you tried cannot be found.</h1>
-            </div>
-          </div>
+	<div id="wrapper" class="outer">
+
+		<header id="header" role="banner" class="homepage-header">
+			<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sst-navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://www.siteskillstraining.com/">
+                <img alt="Brand" src="http://siteskillstraining.com/wp-content/uploads/2021/04/SST-Int-Website-Logo.png" alt="SST Logo">
+            </a>
         </div>
-      </main>
+
+        <div class="navbar-collapse collapse" id="sst-navbar-collapse">
+            
+            <ul class="nav navbar-nav navbar-right hidden-xs">
+                <li><a href="#" data-openform="nav-searchform"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+            </ul>
+
+            <form role="search" id="nav-searchform" method="get" class="search-form nav-search-form navbar-form navbar-right" action="http://www.siteskillstraining.com/">
+                <div class="form-group">
+                    <input type="search" class="search-field form-control" placeholder="Search …" value="" name="s" title="Search for:" />
+                </div>
+            </form> 
+
+            <ul id="menu-main-navigation" class="sst-navigation"><li id="menu-item-1696" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1696"><a href="http://www.siteskillstraining.com/">Home</a></li>
+<li id="menu-item-1697" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1697"><a href="http://www.siteskillstraining.com/about/">About Us</a></li>
+<li id="menu-item-1699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1699"><a href="http://www.siteskillstraining.com/projects/">Projects</a></li>
+<li id="menu-item-1700" class="sst-megamenu menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current_page_ancestor menu-item-has-children menu-item-1700"><a href="http://www.siteskillstraining.com/what-we-do/">What We Do</a>
+<ul class="sub-menu">
+	<li id="menu-item-1705" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1705"><a href="http://www.siteskillstraining.com/training/">Training</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1772" class="accreditation-dropdown menu-item menu-item-type-post_type menu-item-object-service menu-item-has-children menu-item-1772"><a href="http://www.siteskillstraining.com/services/oil-and-gas/">Oil and Gas</a>
+		<ul class="sub-menu">
+			<li id="menu-item-1802" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1802"><a href="/services/oil-and-gas/?course_tag=accredited">Accredited</a></li>
+			<li id="menu-item-1803" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1803"><a href="/services/oil-and-gas/?course_tag=non-accredited">Non-accredited</a></li>
+		</ul>
+</li>
+		<li id="menu-item-1766" class="accreditation-dropdown menu-item menu-item-type-post_type menu-item-object-service menu-item-has-children menu-item-1766"><a href="http://www.siteskillstraining.com/services/hse/">Health, Safety, and Environment (HSE)</a>
+		<ul class="sub-menu">
+			<li id="menu-item-1804" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1804"><a href="/services/hse/?course_tag=accredited">Accredited</a></li>
+			<li id="menu-item-1805" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1805"><a href="/services/hse/?course_tag=non-accredited">Non-accredited</a></li>
+		</ul>
+</li>
+		<li id="menu-item-1770" class="accreditation-dropdown menu-item menu-item-type-post_type menu-item-object-service menu-item-has-children menu-item-1770"><a href="http://www.siteskillstraining.com/services/mome/">Management of Major Emergencies</a>
+		<ul class="sub-menu">
+			<li id="menu-item-1809" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1809"><a href="/services/mome/?course_tag=non-accredited">Non-accredited</a></li>
+		</ul>
+</li>
+		<li id="menu-item-1768" class="accreditation-dropdown menu-item menu-item-type-post_type menu-item-object-service menu-item-has-children menu-item-1768"><a href="http://www.siteskillstraining.com/services/high-risk/">High Risk</a>
+		<ul class="sub-menu">
+			<li id="menu-item-1808" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1808"><a href="/services/high-risk/?course_tag=accredited">Accredited</a></li>
+		</ul>
+</li>
+		<li id="menu-item-1767" class="accreditation-dropdown menu-item menu-item-type-post_type menu-item-object-service menu-item-has-children menu-item-1767"><a href="http://www.siteskillstraining.com/services/heavy-equipment/">Heavy Equipment</a>
+		<ul class="sub-menu">
+			<li id="menu-item-1812" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1812"><a href="/services/heavy-equipment/?course_tag=accredited">Accredited</a></li>
+			<li id="menu-item-1813" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1813"><a href="/services/heavy-equipment/?course_tag=non-accredited">Non-accredited</a></li>
+		</ul>
+</li>
+		<li id="menu-item-1776" class="accreditation-dropdown menu-item menu-item-type-post_type menu-item-object-service menu-item-has-children menu-item-1776"><a href="http://www.siteskillstraining.com/services/trades/">Trades</a>
+		<ul class="sub-menu">
+			<li id="menu-item-1806" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1806"><a href="/services/trades/?course_tag=accredited">Accredited</a></li>
+			<li id="menu-item-1807" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1807"><a href="/services/trades/?course_tag=non-accredited">Non-accredited</a></li>
+		</ul>
+</li>
+		<li id="menu-item-1760" class="accreditation-dropdown menu-item menu-item-type-post_type menu-item-object-service menu-item-has-children menu-item-1760"><a href="http://www.siteskillstraining.com/services/camp-services/">Camp Services</a>
+		<ul class="sub-menu">
+			<li id="menu-item-1811" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1811"><a href="/services/camp-services/?course_tag=accredited">Accredited</a></li>
+		</ul>
+</li>
+		<li id="menu-item-1775" class="accreditation-dropdown menu-item menu-item-type-post_type menu-item-object-service menu-item-has-children menu-item-1775"><a href="http://www.siteskillstraining.com/services/soft-skills/">Soft Skills</a>
+		<ul class="sub-menu">
+			<li id="menu-item-1810" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1810"><a href="/services/soft-skills/?course_tag=accredited">Accredited</a></li>
+		</ul>
+</li>
+		<li id="menu-item-1762" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1762"><a href="http://www.siteskillstraining.com/services/customised-training/">Customised Training Programs</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1703" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1703"><a href="http://www.siteskillstraining.com/immersive-environments/">Immersive Environments</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1774" class="accreditation-dropdown menu-item menu-item-type-post_type menu-item-object-service menu-item-1774"><a href="http://www.siteskillstraining.com/services/process-plant/">Process Plant</a></li>
+		<li id="menu-item-1777" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1777"><a href="http://www.siteskillstraining.com/services/immersive-mine-training/">Underground Mining</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1706" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1706"><a href="http://www.siteskillstraining.com/workforce-nationalisation/">Workforce Nationalisation</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1763" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1763"><a href="http://www.siteskillstraining.com/services/energy/">Energy</a></li>
+		<li id="menu-item-1771" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1771"><a href="http://www.siteskillstraining.com/services/mining/">Mining</a></li>
+		<li id="menu-item-1761" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1761"><a href="http://www.siteskillstraining.com/services/construction/">Construction</a></li>
+		<li id="menu-item-1769" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1769"><a href="http://www.siteskillstraining.com/services/hospitality/">Hospitality</a></li>
+		<li id="menu-item-1765" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1765"><a href="http://www.siteskillstraining.com/services/government-and-public-service/">Government and Public Service</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1702" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1702"><a href="http://www.siteskillstraining.com/competency/">Competency</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1764" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1764"><a href="http://www.siteskillstraining.com/services/framework-development/">Framework Development</a></li>
+		<li id="menu-item-1778" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1778"><a href="http://www.siteskillstraining.com/services/voc/">Verification of Competencies</a></li>
+		<li id="menu-item-55556" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-55556"><a href="http://www.siteskillstraining.com/services/source-train-deploy-solution/">Source-Train-Deploy</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1704" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-1704"><a href="http://www.siteskillstraining.com/standards-and-accreditations/">Standards and Accreditations</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1758" class="menu-item menu-item-type-post_type menu-item-object-service current-menu-item menu-item-1758"><a href="http://www.siteskillstraining.com/services/aws/">American Welding Society (AWS)</a></li>
+		<li id="menu-item-1759" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1759"><a href="http://www.siteskillstraining.com/services/asqa/">Australian Skills Quality Authority (ASQA)</a></li>
+		<li id="menu-item-1773" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1773"><a href="http://www.siteskillstraining.com/services/opito-imist/">OPITO-IMIST</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-1698" class="sst-dropdown menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1698"><a href="http://www.siteskillstraining.com/operations/">Operations</a>
+<ul class="sub-menu">
+	<li id="menu-item-1783" class="menu-item menu-item-type-post_type menu-item-object-operation menu-item-has-children menu-item-1783"><a href="http://www.siteskillstraining.com/operation/philippines/">Philippines</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1784" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1784"><a href="http://www.siteskillstraining.com/facility-ph/">Facility</a></li>
+		<li id="menu-item-1786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1786"><a href="http://www.siteskillstraining.com/partners-ph/">Partners</a></li>
+	</ul>
+</li>
+	<li id="menu-item-55601" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-55601"><a href="https://www.siteskillstraining.com.au/about">Australia</a></li>
+	<li id="menu-item-1781" class="menu-item menu-item-type-post_type menu-item-object-operation menu-item-has-children menu-item-1781"><a href="http://www.siteskillstraining.com/operation/papua-new-guinea/">Papua New Guinea</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1785" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1785"><a href="http://www.siteskillstraining.com/facility-png/">Facility</a></li>
+		<li id="menu-item-1787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1787"><a href="http://www.siteskillstraining.com/partners-png/">Partners</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1780" class="menu-item menu-item-type-post_type menu-item-object-operation menu-item-1780"><a href="http://www.siteskillstraining.com/operation/singapore/">Singapore</a></li>
+	<li id="menu-item-1779" class="menu-item menu-item-type-post_type menu-item-object-operation menu-item-1779"><a href="http://www.siteskillstraining.com/operation/on-site/">On-Site</a></li>
+	<li id="menu-item-55562" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-55562"><a href="http://www.siteskillstraining.com/services/outsourcing/">Outsourcing</a></li>
+</ul>
+</li>
+<li id="menu-item-51601" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51601"><a href="http://www.siteskillstraining.com/blogs/">Blog</a></li>
+<li id="menu-item-1701" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1701"><a href="http://www.siteskillstraining.com/contact-us/">Contact Us</a></li>
+</ul>
+        </div>
+    </div>
+</nav>		</header>
+
+		<div class="main-content">
+<div class="featured-image" style="background-image:url(http://www.siteskillstraining.com/wp-content/uploads/2016/02/banner-sample-optimized.jpg)">
+	<div class="container">
+		<h1 class="header-section">American Welding Society (AWS)</h1>
+			</div>
 </div>
+<section class="sst-breadcrumbs">
+	<div class="container breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
+	    <!-- Breadcrumb NavXT 5.5.1 -->
+<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Site Skills Training International." href="http://www.siteskillstraining.com" class="home"><span property="name">Home</span></a><meta property="position" content="1"></span> / <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to American Welding Society (AWS)." href="http://www.siteskillstraining.com/services/aws/" class="post post-service current-item"><span property="name">American Welding Society (AWS)</span></a><meta property="position" content="2"></span>	</div>
+</section>
+<div class="container">
+	<div class="row">
+		<div id="content" role="main" class="col-lg-9 col-sm-9">
+						<div id="post-447" class="post-447 service type-service status-publish hentry">
 
-<div class="awsm"> 
- <footer id="aws-page-footer" class="m-page-footer" role="contentinfo"> 
-  <div data-url="https://dc.ads.linkedin.com/collect/?pid=3038&amp;fmt=gif" data-lb-comp="tracking-pixel"></div> 
-  <div data-lb-comp="google-rlsa-pixel"></div> 
-  <div class="data-attr-wrapper lb-none-v-margin lb-xb-grid-wrap" style="background-color:#242F3E;" data-da-type="so" data-da-so-type="viewport" data-da-so-language="en" data-da-so-category="monitoring" data-da-so-name="footer" data-da-so-version="a"> 
-   <div class="lb-xb-grid lb-row-max-large lb-snap lb-tiny-xb-1 lb-small-xb-3 lb-large-xb-5"> 
-    <div class="lb-xbcol"> 
-     <div class="data-attr-wrapper lb-small-hide lb-btn" data-da-type="so" data-da-so-type="viewport" data-da-so-language="en" data-da-so-category="monitoring" data-da-so-name="footer_buttons" data-da-so-url="all" data-da-so-version="footer_signin-mobile-default"> 
-      <a class="lb-btn-p-primary" href="https://console.aws.amazon.com/console/home?nc1=f_ct&amp;src=footer-signin-mobile" role="button"> <span> Sign In to the Console</span> </a> 
-     </div> 
-     <h3 id="Learn_About_AWS" class="lb-txt-none lb-txt-p-chromium lb-tiny-v-margin lb-h3 lb-title"> Learn About AWS</h3> 
-     <ul class="lb-txt-p-chromium lb-ul lb-list-style-none lb-li-micro-v-margin lb-tiny-ul-block" style="margin-bottom:0px;"> 
-      <li><a href="https://aws.amazon.com/what-is-aws/?nc1=f_cc" target="_blank" rel="noopener">What Is AWS?</a></li> 
-      <li><a href="https://aws.amazon.com/what-is-cloud-computing/?nc1=f_cc" target="_blank" rel="noopener">What Is Cloud Computing?</a></li> 
-      <li><a href="https://aws.amazon.com/diversity-inclusion/?nc1=f_cc" target="_blank" rel="noopener">AWS Inclusion, Diversity &amp; Equity</a></li> 
-      <li><a href="https://aws.amazon.com/devops/what-is-devops/?nc1=f_cc" target="_blank" rel="noopener">What Is DevOps?</a></li> 
-      <li><a href="https://aws.amazon.com/containers/?nc1=f_cc" target="_blank" rel="noopener">What Is a Container?</a></li> 
-      <li><a href="https://aws.amazon.com/big-data/datalakes-and-analytics/what-is-a-data-lake/?nc1=f_cc" target="_blank" rel="noopener">What Is a Data Lake?</a></li> 
-      <li><a href="https://aws.amazon.com/security/?nc1=f_cc" target="_blank" rel="noopener">AWS Cloud Security</a></li> 
-      <li><a href="https://aws.amazon.com/new/?nc1=f_cc" target="_blank" rel="noopener">What's New</a></li> 
-      <li><a href="https://aws.amazon.com/blogs/?nc1=f_cc" target="_blank" rel="noopener">Blogs</a></li> 
-      <li><a href="https://press.aboutamazon.com/press-releases/aws" target="_blank" rel="noopener" title="Press Releases">Press Releases</a></li> 
-     </ul> 
-    </div> 
-    <div class="lb-xbcol"> 
-     <h3 id="Resources_for_AWS" class="lb-txt-none lb-txt-p-chromium lb-tiny-v-margin lb-h3 lb-title"> Resources for AWS</h3> 
-     <ul class="lb-txt-p-chromium lb-ul lb-list-style-none lb-li-micro-v-margin lb-tiny-ul-block" style="margin-bottom:0px;"> 
-      <li><a href="https://aws.amazon.com/getting-started/?nc1=f_cc" target="_blank" rel="noopener">Getting Started</a></li> 
-      <li><a href="https://aws.amazon.com/training/?nc1=f_cc" target="_blank" rel="noopener">Training and Certification</a></li> 
-      <li><a href="https://aws.amazon.com/solutions/?nc1=f_cc" target="_blank" rel="noopener">AWS Solutions Portfolio</a></li> 
-      <li><a href="https://aws.amazon.com/architecture/?nc1=f_cc" target="_blank" rel="noopener">Architecture Center</a></li> 
-      <li><a href="https://aws.amazon.com/faqs/?nc1=f_dr" target="_blank" rel="noopener">Product and Technical FAQs</a></li> 
-      <li><a href="https://aws.amazon.com/resources/analyst-reports/?nc1=f_cc" target="_blank" rel="noopener">Analyst Reports</a></li> 
-      <li><a href="https://aws.amazon.com/partners/work-with-partners/?nc1=f_dr" target="_blank" rel="noopener">AWS Partners</a></li> 
-     </ul> 
-    </div> 
-    <div class="lb-xbcol"> 
-     <h3 id="Developers_on_AWS" class="lb-txt-none lb-txt-p-chromium lb-tiny-v-margin lb-h3 lb-title"> Developers on AWS</h3> 
-     <ul class="lb-txt-p-chromium lb-ul lb-list-style-none lb-li-micro-v-margin lb-tiny-ul-block" style="margin-bottom:0px;"> 
-      <li><a href="https://aws.amazon.com/developer/?nc1=f_dr" target="_blank" rel="noopener">Developer Center</a></li> 
-      <li><a href="https://aws.amazon.com/developer/tools/?nc1=f_dr" target="_blank" rel="noopener">SDKs &amp; Tools</a></li> 
-      <li><a href="https://aws.amazon.com/developer/language/net/?nc1=f_dr" target="_blank" rel="noopener">.NET on AWS</a></li> 
-      <li><a href="https://aws.amazon.com/developer/language/python/?nc1=f_dr" target="_blank" rel="noopener">Python on AWS</a></li> 
-      <li><a href="https://aws.amazon.com/developer/language/java/?nc1=f_dr" target="_blank" rel="noopener">Java on AWS</a></li> 
-      <li><a href="https://aws.amazon.com/developer/language/php/?nc1=f_cc" target="_blank" rel="noopener">PHP on AWS</a></li> 
-      <li><a href="https://aws.amazon.com/developer/language/javascript/?nc1=f_dr" target="_blank" rel="noopener">JavaScript on AWS</a></li> 
-     </ul> 
-    </div> 
-    <div class="lb-xbcol"> 
-     <h3 id="Help" class="lb-txt-none lb-txt-p-chromium lb-tiny-v-margin lb-h3 lb-title"> Help</h3> 
-     <ul class="lb-txt-p-chromium lb-ul lb-list-style-none lb-li-micro-v-margin lb-tiny-ul-block" style="margin-bottom:0px;"> 
-      <li><a href="https://aws.amazon.com/contact-us/?nc1=f_m" target="_blank" rel="noopener">Contact Us</a></li> 
-      <li><a href="https://console.aws.amazon.com/support/home/?nc1=f_dr" target="_blank" rel="noopener">File a Support Ticket</a></li> 
-      <li><a href="https://aws.amazon.com/premiumsupport/knowledge-center/?nc1=f_dr" target="_blank" rel="noopener">Knowledge Center</a></li> 
-      <li><a href="https://repost.aws/?nc1=f_dr" target="_blank" rel="noopener">AWS re:Post</a></li> 
-      <li><a href="https://aws.amazon.com/premiumsupport/?nc1=f_dr" target="_blank" rel="noopener">AWS Support Overview</a></li> 
-      <li><a href="https://aws.amazon.com/legal/?nc1=f_cc" target="_blank" rel="noopener">Legal</a></li> 
-      <li><a href="https://www.amazon.jobs/aws" target="_blank" rel="noopener">AWS Careers</a></li> 
-     </ul> 
-     <div class="lb-mbox js-mbox" data-lb-comp="mbox" data-lb-comp-ignore="true" data-mbox="en_footer-v3_addl-help"> 
-     </div> 
-    </div> 
-    <div class="lb-xbcol"> 
-     <div class="lb-mbox js-mbox" data-lb-comp="mbox" data-lb-comp-ignore="true" data-mbox="en_footer-v3_cta"> 
-      <div class="data-attr-wrapper lb-tiny-hide lb-small-show lb-btn" data-da-type="so" data-da-so-type="viewport" data-da-so-language="en" data-da-so-category="monitoring" data-da-so-name="footer_buttons" data-da-so-url="all" data-da-so-version="footer_signup-default"> 
-       <a class="lb-btn-p-primary" href="https://portal.aws.amazon.com/gp/aws/developer/registration/index.html?nc1=f_ct&amp;src=default" role="button"> <span> Create an AWS Account</span> </a> 
-      </div> 
-     </div> 
-     <div class="lb-xb-grid-wrap" style="padding-left:0px; margin-top:20px;"> 
-      <div class="lb-xb-grid lb-row-max-large lb-xb-equal-height lb-snap lb-gutter-collapse lb-vgutter-collapse lb-tiny-xb-auto"> 
-       <div class="lb-xbcol"> 
-        <a class="lb-txt-none lb-txt-p-chromium lb-none-pad lb-txt" style="padding-left:0px; padding-right:5px;" href="https://twitter.com/awscloud" target="_blank" rel="noopener" title="Twitter"> <i class="icon-twitter"></i></a> 
-       </div> 
-       <div class="lb-xbcol"> 
-        <a class="lb-txt-none lb-txt-p-chromium lb-none-pad lb-none-v-margin lb-txt" style="padding-right:5px;" href="https://www.facebook.com/amazonwebservices" target="_blank" rel="noopener" title="Facebook"> <i class="icon-facebook"></i></a> 
-       </div> 
-       <div class="lb-xbcol"> 
-        <a class="lb-txt-none lb-txt-p-chromium lb-none-pad lb-txt" style="padding-right:5px;" href="https://www.twitch.tv/aws" target="_blank" rel="noopener" title="Twitch"> <i class="icon-twitch"></i></a> 
-       </div> 
-       <div class="lb-xbcol"> 
-        <a class="lb-txt-none lb-txt-p-chromium lb-none-pad lb-txt" style="padding-right:5px;" href="https://www.youtube.com/user/AmazonWebServices/Cloud/" target="_blank" rel="noopener" title="YouTube"> <i class="icon-youtube"></i></a> 
-       </div> 
-       <div class="lb-xbcol"> 
-        <a class="lb-txt-none lb-txt-p-chromium lb-none-pad lb-txt" style="padding-right:5px;" href="https://aws.amazon.com/podcasts/" target="_blank" rel="noopener" title="Podcast"> <i class="icon-podcast"></i></a> 
-       </div> 
-       <div class="lb-xbcol"> 
-        <a class="lb-txt-none lb-txt-p-chromium lb-none-pad lb-txt" style="padding-right:5px;" href="https://pages.awscloud.com/communication-preferences?trk=homepage" target="_blank" rel="noopener" title="Email"> <i class="icon-envelope-o"></i></a> 
-       </div> 
-      </div> 
-     </div> 
-     <div class="lb-txt-normal lb-txt-white lb-txt-14 lb-rtxt" style="color:#eaeded; margin-top:0px;"> 
-      <div>
-        Amazon is an Equal Opportunity Employer: 
-       <i> Minority / Women / Disability / Veteran / Gender Identity / Sexual Orientation / Age.</i> 
-      </div> 
-     </div> 
-    </div> 
-   </div> 
-  </div> 
-  <div class="lb-none-pad lb-none-v-margin lb-xb-grid-wrap" style="background-color:#242F3E;"> 
-   <div class="lb-xb-grid lb-row-max-large lb-snap lb-tiny-xb-1"> 
-    <div class="lb-xbcol"> 
-     <ul class="lb-txt-p-chromium lb-tiny-iblock lb-none-v-margin lb-ul lb-list-style-none lb-li-micro-v-margin lb-tiny-ul-iblock"> 
-      <li class="lb-txt-bold">Language</li> 
-      <li data-language="ar"><a href="https://aws.amazon.com/ar/?nc1=h_ls">عربي</a></li> 
-      <li data-language="id"><a href="https://aws.amazon.com/id/?nc1=h_ls">Bahasa Indonesia</a></li> 
-      <li data-language="de"><a href="https://aws.amazon.com/de/?nc1=h_ls">Deutsch</a></li> 
-      <li data-language="en"><a href="https://aws.amazon.com/?nc1=h_ls">English</a></li> 
-      <li data-language="es"><a href="https://aws.amazon.com/es/?nc1=h_ls">Español</a></li> 
-      <li data-language="fr"><a href="https://aws.amazon.com/fr/?nc1=h_ls">Français</a></li> 
-      <li data-language="it"><a href="https://aws.amazon.com/it/?nc1=h_ls">Italiano</a></li> 
-      <li data-language="pt"><a href="https://aws.amazon.com/pt/?nc1=h_ls">Português</a></li> 
-      <li data-language="vi"><a href="https://aws.amazon.com/vi/?nc1=f_ls">Tiếng Việt</a></li> 
-      <li data-language="tr"><a href="https://aws.amazon.com/tr/?nc1=h_ls">Türkçe</a></li> 
-      <li data-language="ru"><a href="https://aws.amazon.com/ru/?nc1=h_ls">Ρусский</a></li> 
-      <li data-language="th"><a href="https://aws.amazon.com/th/?nc1=f_ls">ไทย</a></li> 
-      <li data-language="jp"><a href="https://aws.amazon.com/jp/?nc1=h_ls">日本語</a></li> 
-      <li data-language="ko"><a href="https://aws.amazon.com/ko/?nc1=h_ls">한국어</a></li> 
-      <li data-language="cn"><a href="https://aws.amazon.com/cn/?nc1=h_ls">中文 (简体)</a></li> 
-      <li data-language="tw"><a href="https://aws.amazon.com/tw/?nc1=h_ls">中文 (繁體)</a></li> 
-     </ul> 
-    </div> 
-   </div> 
-  </div> 
-  <div class="lb-none-pad lb-none-v-margin lb-xb-grid-wrap" style="background-color:#EAEDED; padding-top:5px;"> 
-   <div class="lb-xb-grid lb-row-max-large lb-snap lb-tiny-xb-1"> 
-    <div class="lb-xbcol"> 
-     <ul class="lb-txt-p-squid-ink lb-none-v-margin lb-ul lb-list-style-none lb-li-none-v-margin lb-tiny-ul-iblock"> 
-      <li><a href="https://aws.amazon.com/privacy/?nc1=f_pr">Privacy</a></li> 
-      <li>|</li> 
-      <li><a href="https://aws.amazon.com/terms/?nc1=f_pr">Site Terms</a></li> 
-      <li>|</li> 
-      <li data-cookie-consent-modal="1"><a href="#"> Cookie Preferences </a></li> 
-      <li>|</li> 
-      <li>© 2022, Amazon Web Services, Inc. or its affiliates. All rights reserved.</li> 
-     </ul> 
-    </div> 
-   </div> 
-  </div> 
- </footer> 
-</div><div id="aws-page-end"></div>
-<div id="lb-page-end"></div>
+				
+				<div class="page-content">
 
-<!-- cs:9f34d84cfc7ddb974cb3c631b67c2b1578cb61a9:404 -->
-</body>
+											
+						<div class="sst_post_sections">
+															
+									<div class="sst_post_section">
+										
+										<div class="post-s-heading">
+											<span><i class="fa fa-info"></i></span>
+											<h2 style="background-image: url()">About AWS</h2>
+										</div>
+										<div class="post-s-content">
+											<p>The <a href="http://www.aws.org/">American Welding Society (AWS)</a> is a non-profit organisation dedicated to the scientific and technological advancement, and application of welding, allied joining and cutting processes. AWS strives to move the industry forward by connecting welding communities from around the world, developing higher standards, and creating career opportunities.</p>
+<p>AWS created the Accredited Test Facility (ATF) program. ATFs play an integral part in the operation of the AWS Certified Welding program. It establishes requirements for test facilities, their personnel, and equipment to test and qualify welders.</p>
+										</div>
+										
+									</div>
+								
+									<div class="sst_post_section post_section_courses-list">
+										
+										<div class="post-s-heading">
+											<span><i class="fa fa-thumbs-up"></i></span>
+											<h2 style="background-image: url()">We are Accredited</h2>
+										</div>
+										<div class="post-s-content">
+											<p>Site Skills Training has been an Accredited Test Facility since February 1, 2014. We are one of only two ATFs located in the Philippines. The accreditation recognises our capability to deliver comprehensive assessments, including having a full-time certified welding inspector, and a welding facility fully equipped for assessing individuals in MMAW, GMAW, GTAW, and Arc Gouging.</p>
+										</div>
+										
+									</div>
+								
+									<div class="sst_post_section">
+										
+										<div class="post-s-heading">
+											<span><i class="fa fa-phone"></i></span>
+											<h2 style="background-image: url()">Talk to Us</h2>
+										</div>
+										<div class="post-s-content">
+											<p>Our reputable record in servicing the welding and fabrication sector ensures our capability to develop people that meet the needs of various industries. For more information regarding our AWS Accredited Test Facility, <a href="http://siteskillstraining.com/contact-us/">contact us</a> today.</p>
+										</div>
+										
+									</div>
+								
+													</div>
+
+					
+				</div>
+
+			</div>
+			
+		</div>
+		<div class="col-lg-3 col-sm-3 sidebar-container">
+			
+<div id="sidebar" role="complementary">
+	
+		
+							<div id="blank" class="sst-sidebar">
+					<ul class="sidebar-list">
+
+																					<li id="sst-sb-custom-nav" class="widget-container">
+								   	<h4 class="header-summary">Standards and Accreditations</h4>
+								   	<div class="ss-sb-custom-nav-container">
+								      	<ul id="menu-what-we-do" class="menu">
+									      										      		<li id="menu-item-447"><a href="http://www.siteskillstraining.com/asqa/">Australian Skills Quality Authority (ASQA)</a></li>	
+									      										      		<li id="menu-item-447"><a href="http://www.siteskillstraining.com/aws/">American Welding Society (AWS)</a></li>	
+									      										      		<li id="menu-item-447"><a href="http://www.siteskillstraining.com/opito-imist/">OPITO-IMIST</a></li>	
+									      									      	</ul>
+								   	</div>
+								</li>	
+								
+						
+						<li id="nav_menu-12" class="widget-container widget_nav_menu"><h4 class="header-summary">What We Do</h4><div class="menu-what-we-do-container"><ul id="menu-what-we-do" class="menu"><li id="menu-item-661" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-661"><a href="http://www.siteskillstraining.com/workforce-nationalisation/">Workforce Nationalisation</a></li>
+<li id="menu-item-662" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-662"><a href="http://www.siteskillstraining.com/immersive-environments/">Immersive Environments</a></li>
+<li id="menu-item-663" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-663"><a href="http://www.siteskillstraining.com/training/">Training</a></li>
+<li id="menu-item-664" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-664"><a href="http://www.siteskillstraining.com/competency/">Competency</a></li>
+<li id="menu-item-665" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-665"><a href="http://www.siteskillstraining.com/standards-and-accreditations/">Standards and Accreditations</a></li>
+</ul></div></li><li id="nav_menu-13" class="widget-container widget_nav_menu"><h4 class="header-summary">About Us</h4><div class="menu-sst-about-menu-container"><ul id="menu-sst-about-menu" class="menu"><li id="menu-item-544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-544"><a href="http://www.siteskillstraining.com/what-we-do/">What We Do</a></li>
+<li id="menu-item-543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-543"><a href="http://www.siteskillstraining.com/about/">About Us</a></li>
+<li id="menu-item-545" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-545"><a href="http://www.siteskillstraining.com/contact-us/">Contact Us</a></li>
+</ul></div></li><li id="nav_menu-24" class="widget-container widget_nav_menu"><h4 class="header-summary">Immersive Environments</h4><div class="menu-immersive-environments-container"><ul id="menu-immersive-environments" class="menu"><li id="menu-item-1548" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1548"><a href="http://www.siteskillstraining.com/services/process-plant/">Process Plant</a></li>
+<li id="menu-item-1547" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1547"><a href="http://www.siteskillstraining.com/services/mining/">Mining</a></li>
+</ul></div></li><li id="nav_menu-14" class="widget-container widget_nav_menu"><h4 class="header-summary">Our Training Services</h4><div class="menu-sst-widget-menu-container"><ul id="menu-sst-widget-menu" class="menu"><li id="menu-item-1409" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1409"><a href="http://www.siteskillstraining.com/services/oil-and-gas/">Oil and Gas</a></li>
+<li id="menu-item-1408" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1408"><a href="http://www.siteskillstraining.com/services/hse/">Health, Safety, and Environment</a></li>
+<li id="menu-item-1539" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1539"><a href="http://www.siteskillstraining.com/services/mome/">Management of Major Emergencies</a></li>
+<li id="menu-item-1407" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1407"><a href="http://www.siteskillstraining.com/services/high-risk/">High Risk</a></li>
+<li id="menu-item-1406" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1406"><a href="http://www.siteskillstraining.com/services/heavy-equipment/">Heavy Equipment</a></li>
+<li id="menu-item-1405" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1405"><a href="http://www.siteskillstraining.com/services/trades/">Trades</a></li>
+<li id="menu-item-1402" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1402"><a href="http://www.siteskillstraining.com/services/camp-services/">Camp Services</a></li>
+<li id="menu-item-1403" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1403"><a href="http://www.siteskillstraining.com/services/soft-skills/">Soft Skills</a></li>
+<li id="menu-item-1404" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1404"><a href="http://www.siteskillstraining.com/services/customised-training/">Customised Training Programs</a></li>
+</ul></div></li>					</ul>
+				</div>
+					
+		
+	</div>		</div>
+	</div>
+
+	</div>
+
+				<div class="clear"></div>
+				<footer id="footer" role="contentinfo">
+					<div class="upper">
+						<div class="container">
+							<div class="row footer-widgets">
+                                
+								<div class="col-lg-6 col-sm-4 contact-form footer-widget" id="footer-contact-form">
+									<h3 class="label-footer divider">Enquire Now</h3>
+									<div class="fw-content">
+										<div role="form" class="wpcf7" id="wpcf7-f959-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response"></div>
+<form action="/services/aws/#wpcf7-f959-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="959" />
+<input type="hidden" name="_wpcf7_version" value="4.5" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f959-o1" />
+<input type="hidden" name="_wpnonce" value="44dd34d2d1" />
+</div>
+<div id="ff" class="ff">
+<div class="form-group ff-name-group">
+		<span class="wpcf7-form-control-wrap ff_name"><input type="text" name="ff_name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required ff_name form-control" id="ff_name" aria-required="true" aria-invalid="false" placeholder="Name" /></span>
+	</div>
+<div class="form-group ff-email-group">
+		<span class="wpcf7-form-control-wrap ff_email"><input type="email" name="ff_email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email ff_email form-control" id="ff_email" aria-required="true" aria-invalid="false" placeholder="Email Address" /></span>
+	</div>
+<div class="form-group ff-company-group">
+		<span class="wpcf7-form-control-wrap ff_company"><input type="text" name="ff_company" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required ff_company form-control" id="ff_company" aria-required="true" aria-invalid="false" placeholder="Company" /></span>
+	</div>
+<div class="form-group ff-message-group">
+		<span class="wpcf7-form-control-wrap ff_message"><textarea name="ff_message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required ff_message form-control" id="ff_message" aria-required="true" aria-invalid="false" placeholder="Message"></textarea></span>
+	</div>
+<div style="margin-bottom: 10px;">
+<div class="wpcf7-form-control-wrap"><div data-sitekey="6Lem7SAUAAAAALsRXo2nI8rU9VmNnE8VdSqZSDoT" class="wpcf7-form-control g-recaptcha wpcf7-recaptcha"></div>
+<noscript>
+	<div style="width: 302px; height: 422px;">
+		<div style="width: 302px; height: 422px; position: relative;">
+			<div style="width: 302px; height: 422px; position: absolute;">
+				<iframe src="https://www.google.com/recaptcha/api/fallback?k=6Lem7SAUAAAAALsRXo2nI8rU9VmNnE8VdSqZSDoT" frameborder="0" scrolling="no" style="width: 302px; height:422px; border-style: none;">
+				</iframe>
+			</div>
+			<div style="width: 300px; height: 60px; border-style: none; bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px; background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px;">
+				<textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;">
+				</textarea>
+			</div>
+		</div>
+	</div>
+</noscript>
+</div>
+</div>
+<p>	<input type="submit" value="Submit" class="wpcf7-form-control wpcf7-submit btn btn-default form-control" id="ff_submit" />
+</p></div>
+<div class="wpcf7-response-output wpcf7-display-none"></div></form></div>									</div>
+								</div>
+								<div class="col-lg-3 col-sm-4 contact footer-widget">
+									<h3 class="label-footer divider">Contact Info</h3>
+									<div class="fw-content">
+										<p><strong>Site Skills Training</strong><br/></p>
+										<ul class="fa-ul">
+											<li><i class="fa fa-li fa-phone" aria-hidden="true"></i>+63 45 499 1434</li>
+											<li><i class="fa fa-li fa-fax" aria-hidden="true"></i>+63 45 499 1404</li>
+											<li><i class="fa fa-li fa-envelope" aria-hidden="true"></i><a style="text-transform: none" href="mailto:sstclark@site.edu.au">sstclark@site.edu.au</a></li>
+											<li><i class="fa fa-li fa-home" aria-hidden="true"></i>Centennial Road, Clark Freeport Zone, Pampanga, Philippines 2023</li>
+											<li><i class="fa fa-li fa-truck" aria-hidden="true"></i>P.O. Box 53799</li>
+										</ul>
+									</div>
+								</div>
+								
+								<div class="col-lg-3 col-sm-4 footer-widget">
+									<h3 class="label-footer divider">Quick Links</h3>
+									<div class="fw-content text-gray">
+									 	<ul id="menu-sst-footer-menu" class=""><li id="menu-item-512" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-512"><a href="http://www.siteskillstraining.com/contact-us/">Contact Us</a></li>
+<li id="menu-item-511" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-511"><a href="http://www.siteskillstraining.com/projects/">Projects</a></li>
+<li id="menu-item-513" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-513"><a href="http://www.siteskillstraining.com/what-we-do/">What We Do</a></li>
+<li id="menu-item-510" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-510"><a href="http://www.siteskillstraining.com/operations/">Operations</a></li>
+</ul>																			</div>
+								</div>
+                                
+							</div>
+						</div>
+					</div>
+					<div class="lower">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 text-center">
+									<p>Site Skills Training International - <a href="http://siteskillstraining.com/privacy-policy/" target="_blank">Privacy Policy</a> - <a href="http://siteskillstraining.com/payment-policy/">Payment Policy</a> - <a href="http://siteskillstraining.com/complaints-and-appeals-policy/">Complaints and Appeals Policy</a> - <a href="http://siteskillstraining.com/student-information-handbook/">Student Information Handbook</a></p>
+									<p>Copyright &copy; 2022. Site Skills Training. All Rights Reserved.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</footer>
+			</div>
+		</div>
+	<script type="text/javascript">
+var recaptchaWidgets = [];
+var recaptchaCallback = function() {
+	var forms = document.getElementsByTagName('form');
+	var pattern = /(^|\s)g-recaptcha(\s|$)/;
+
+	for (var i = 0; i < forms.length; i++) {
+		var divs = forms[i].getElementsByTagName('div');
+
+		for (var j = 0; j < divs.length; j++) {
+			var sitekey = divs[j].getAttribute('data-sitekey');
+
+			if (divs[j].className && divs[j].className.match(pattern) && sitekey) {
+				var widget_id = grecaptcha.render(divs[j], {
+					'sitekey': sitekey,
+					'theme': divs[j].getAttribute('data-theme'),
+					'type': divs[j].getAttribute('data-type'),
+					'size': divs[j].getAttribute('data-size'),
+					'tabindex': divs[j].getAttribute('data-tabindex'),
+					'callback': divs[j].getAttribute('data-callback'),
+					'expired-callback': divs[j].getAttribute('data-expired-callback')
+				});
+
+				recaptchaWidgets.push(widget_id);
+				break;
+			}
+		}
+	}
+}
+</script>
+<script type='text/javascript' src='http://www.siteskillstraining.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.siteskillstraining.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.siteskillstraining.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.5'></script>
+<script type='text/javascript' src='http://www.siteskillstraining.com/wp-content/themes/blank-revised/bower_components/flexslider/jquery.flexslider-min.js?ver=4.6'></script>
+<script type='text/javascript' src='http://www.siteskillstraining.com/wp-content/themes/blank-revised/bower_components/gilbitron/carouFredSel/jquery.carouFredSel-6.2.1-packed.js?ver=4.6'></script>
+<script type='text/javascript' src='http://www.siteskillstraining.com/wp-content/themes/blank-revised/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js?ver=4.6'></script>
+<script type='text/javascript' src='http://www.siteskillstraining.com/wp-content/themes/blank-revised/bower_components/lightbox2/dist/js/lightbox.min.js?ver=4.6'></script>
+<script type='text/javascript' src='http://www.siteskillstraining.com/wp-content/themes/blank-revised/js/scrmcreatelead.js?ver=4.6'></script>
+<script type='text/javascript' src='http://www.siteskillstraining.com/wp-content/themes/blank-revised/js/navigation.js?ver=4.6'></script>
+<script type='text/javascript' src='http://www.siteskillstraining.com/wp-includes/js/wp-embed.min.js?ver=4.6'></script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?onload=recaptchaCallback&#038;render=explicit&#038;ver=2.0'></script>
+
+	<script type="text/javascript">
+		jQuery(window).load(function(){
+			// $ = jQuery;
+			// function blurbSetHeight ( blurb ) {
+			// 	console.log(blurb);
+			// 	var heightArr = [];
+			// 	for (var i = blurb.length - 1; i >= 0; i--) {
+			// 		heightArr.push(blurb[i].outerHeight()); 
+			// 	}
+			// 	console.log(heightArr);
+
+			// }
+			function setMinItems() {
+				if ( jQuery(this).width() <= 480 ) {
+					minItems = 1;
+				} else if ( jQuery(this).width() >= 480 && jQuery(this).width() <= 768 ) {
+					minItems = 2;
+				} else {
+					minItems = 4;
+				}
+				return minItems;
+			}
+
+			// function fixPheadHeights() {
+			// 	var pcarouselPHead = $('.projects-carousel .p-carousel-project .p-head');
+			// 	var heightArr = [];
+			// 	pcarouselPHead.each(function(){
+			// 		heightArr.push($(this).height());
+			// 		// console.log($(this).attr('class'));
+			// 	});
+			// 	console.log(heightArr);
+			// }
+
+			jQuery('.projects-carousel').flexslider({
+				animation: "slide",
+				slideshowSpeed: 10000,
+			    controlNav: false,
+			    prevText: '',
+			    nextText: '',
+			    itemWidth: 400,
+			    itemMargin: 15,
+			    minItems: setMinItems(),
+			    maxItems: 4,
+			    move: 1,
+			});
+			jQuery('.what-we-do-carousel').flexslider({
+				animation: "slide",
+				slideshow: false,
+			    controlNav: false,
+			    prevText: '',
+			    nextText: '',
+			    itemWidth: 400,
+			    itemMargin: 15,
+			    minItems: setMinItems(),
+			    maxItems: 4,
+			    move: 1,
+			});
+			jQuery('.operations-carousel').flexslider({
+				animation: "slide",
+				slideshowSpeed: 10000,
+			    controlNav: false,
+			    prevText: '',
+			    nextText: '',
+			    itemWidth: 400,
+			    itemMargin: 15,
+			    minItems: setMinItems(),
+			    maxItems: 4,
+			    move: 1,
+			});
+		});
+		jQuery(document).ready(function($){
+			// navAnim( false );
+			// $(window).resize(navAnim( false ));
+			
+			$('#default-carousel').carouFredSel({
+				auto				: {
+					duration		: 3000,
+					play			: true,
+					timeoutDuration : 7000
+				},
+				width				: '100%',
+				align				: 'left',
+				direction			: 'left',
+				pagination			: {
+					container		: '#default-carousel-pagination',
+					keys			: true,
+		            items			: 1,
+		            fx				: 'fade',
+		            easing			: 'swing',
+		            duration		: 1250,
+		            anchorBuilder	: function (nr, item){
+			            return '<a href="#'+nr+'" class="page-item"></a>';
+		            },
+		            pauseOnHover	: true
+				},
+				swipe				: {
+		            items			: 1,
+		            fx				: 'fade',
+		            easing			: 'swing',
+		            duration		: 1250,
+		            pauseOnHover	: true
+				},
+				items				: {
+					visible			: 1,
+					width			: '100%',
+					minimum			: 2
+				},
+		        scroll 				: {
+		            items			: 1,
+		            fx				: 'fade',
+		            easing			: 'swing',
+		            duration		: 1250,
+		            pauseOnHover	: true,
+		            onAfter			: function ( data ){
+			            var displayed =  $('.page:first-child');
+			            $(displayed).find('img').addClass('fade-in-down-anim');
+			            $(displayed).find('.header-section').addClass('fade-in-right-anim');
+			            $(displayed).find('.header-tagline').addClass('fade-in-left-anim');
+			            $(displayed).find('a').addClass('fade-in-top-anim');
+			            var displayed =  $('.page:last-child');
+			            $(displayed).find('img').removeClass("fade-in-down-anim");
+			            $(displayed).find('.header-section').removeClass("fade-in-right-anim");
+			            $(displayed).find('.header-tagline').removeClass("fade-in-left-anim");
+			            $(displayed).find('a').removeClass("fade-in-top-anim");
+			            navAnim( true );
+			            var vid = $('.page:first-child').find("video");
+					   	// console.log(vid);
+					   	if(vid.length > 0){
+					    	vid.get(0).play();
+					   	}
+		            },
+		            onBefore: function() {
+				   		var vid = $(this).find("video");
+				   		if(vid.length > 0){
+				    		vid.get(0).pause();
+				  		}
+				  	},
+		        },
+		        prev				: {
+			        button			: '#default-prev',
+		            items			: 1,
+		            fx				: 'fade',
+		            easing			: 'swing',
+		            duration		: 1250,
+		            pauseOnHover	: true
+		        },
+		        next				: {
+			        button			: '#default-next',
+		            items			: 1,
+		            fx				: 'fade',
+		            easing			: 'swing',
+		            duration		: 1250,
+		            pauseOnHover	: true
+		        },
+		        onCreate			: function ( data ){
+		            var displayed =  $('.page:first-child');
+		            $(displayed).find('img').addClass('fade-in-down-anim');
+		            $(displayed).find('.header-section').addClass('fade-in-right-anim');
+		            $(displayed).find('.header-tagline').addClass('fade-in-left-anim');
+		            $(displayed).find('a').addClass('fade-in-top-anim');
+		            var vid = $('.page:first-child').find("video");
+				   	// console.log(vid);
+				   	if(vid.length > 0){
+				    	vid.get(0).play();
+				   	}
+		        }
+			});
+			
+			function navAnim( isCarousel ) {
+				var win = $(window);
+				var nav = $('.navbar-default');
+				var winH = parseInt(win.height() - nav.outerHeight());
+				if($('#default').length <= 0) {
+					winH = parseInt($('.featured-image').outerHeight() - nav.outerHeight());
+				}
+				// console.log(winH);
+		        checkCurWinLoc(win.scrollTop(), winH, isCarousel);
+				win.on('scroll', function(){
+			        checkCurWinLoc( $(this).scrollTop(), winH, isCarousel );
+			    }).on("resize", function(){
+					winH = $(this).height();
+			    });
+			}
+
+			function checkCurWinLoc(curWinLoc, winHeight, isCarousel){
+				var nav = $('.navbar-default');
+				var page_container = $('#default .page:first-child > .container');
+		        if ( curWinLoc > winHeight ) {
+		        	if( !isCarousel ) {
+			            nav.addClass("sst-nav-mobile-fade-in-blue");
+			            nav.removeClass("sst-nav-mobile-fade-out-blue");
+		        	}
+		        } else {
+		        	if( !isCarousel ) {
+			            nav.removeClass("sst-nav-mobile-fade-in-blue");
+			            nav.addClass("sst-nav-mobile-fade-out-blue");
+		        	}
+		            page_container.css('opacity', 1-(curWinLoc/(winHeight-page_container.outerHeight())));
+		        }
+			}
+
+		});
+	</script>
+
+	</body>
 </html>
