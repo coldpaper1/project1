@@ -1,9 +1,0 @@
----
-- name: master k8s command!
-  hosts: master
-  become: no
-
-  tasks:
-  - name: master k8s command!!!
-    shell: "kubectl run nginx --image=nginx"
-
